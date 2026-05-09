@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber Attack Awareness</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 92%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+header {
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+section {
+    background: rgba(255,255,255,0.1);
+    padding: 18px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #00d9ff;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    color: #00ffcc;
+    transform: translateX(6px);
+}
+
+a {
+    color: #ffd369;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #00ffcc;
+}
+
+p {
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p, ul li {
+        font-size: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Cyber Attack Awareness</h1>
+
+    <img class="main-image"
+    src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1200&auto=format&fit=crop"
+    alt="Cyber Security">
+</header>
+
+<section>
+    <h2>Important Cyber Security Tips</h2>
+    <ul>
+        <li>Use strong passwords</li>
+        <li>Avoid suspicious links</li>
+        <li>Keep software updated</li>
+        <li>Enable two-factor authentication</li>
+        <li>Backup your data regularly</li>
+    </ul>
+</section>
+
+<section>
+    <h2>About Cyber Attacks</h2>
+    <p>
+        Cyber attacks are attempts to steal or damage data and systems.
+        Cyber security protects individuals and organizations from online threats.
+    </p>
+</section>
+
+<section>
+    <h2>Contact Information</h2>
+    <p><strong>Name:</strong> Reham</p>
+    <p><strong>Email:</strong> s202206286@uoh.edu.sa</p>
+</section>
+
+<section>
+    <h2>External Links</h2>
+
+    <a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html" target="_blank">
+        Cisco Cyber Security
+    </a>
+
+    <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security" target="_blank">
+        Kaspersky Guide
+    </a>
+</section>
+
+</div>
+
+</body>
+</html>
